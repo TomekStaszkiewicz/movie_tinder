@@ -1,0 +1,30 @@
+name: Movie tinder CI
+on: [push, pull_request]
+jobs:
+  Test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Installing dependencies 
+        run: npm install
+      - name: Testing
+        run: npm run test
+  Lint: 
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Installing dependencies 
+        run: npm install
+      - name: Linter
+        run: npm run lint
+  Typecheck: 
+    name: Typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Installing dependencies 
+        run: npm install
+      - name: Typechecking
+        run: npm run typecheck
