@@ -1,5 +1,5 @@
 export enum ActionTypes {
     INIT = "initStore",
-    ACCEPT_MOVIE = 'acceptMove',
+    ACCEPT_MOVIE = 'acceptMovie',
     REJECT_MOVIE = 'rejectMovie'
 }
