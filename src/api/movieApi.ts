@@ -7,7 +7,7 @@ import movies from './movies.json';
  */
 export const getAllMovies = (): Promise<Movie[]> => {
     return new Promise((res) => {
-        res(movies)
+        setTimeout(() => res(movies))
     })
 }
 
