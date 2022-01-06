@@ -1,0 +1,47 @@
+[
+    {
+        "id": "123-123",
+        "title": "Lord of the rings", 
+        "summary": "Some summary",
+        "rating": 10.0,
+        "imageUrl": "https://picsum.photos/id/1/1000/800"
+    },
+    {
+        "id": "123-908",
+        "title": "Space Odyssey", 
+        "summary": "Some summary",
+        "rating": 9.72,
+        "imageUrl": "https://picsum.photos/id/2/1000/800"
+    },
+    {
+        "id": "123-mmm",
+        "title": "Matrix", 
+        "summary": "Some summary",
+        "rating": 7.03,
+        "imageUrl": "https://picsum.photos/id/3/1000/800"
+
+    },
+    {
+        "id": "ababa-ababa",
+        "title": "12 angry men",
+        "summary": "Some summary",
+        "rating": 9.81,
+        "imageUrl": "https://picsum.photos/id/4/1000/800"
+
+    },
+    {
+        "id": "777-999",
+        "title": "The room",
+        "summary": "Some summary",
+        "rating": 2.19,
+        "imageUrl": "https://picsum.photos/id/5/1000/800"
+
+    },
+    {
+        "id": "123-1078",
+        "title": "Don\"t look up",
+        "summary": "Some summary",
+        "rating": 5.33,
+        "imageUrl": "https://picsum.photos/id/6/1000/800"
+    }
+]
